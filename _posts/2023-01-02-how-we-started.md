@@ -2,8 +2,8 @@
 layout: post
 title: Introduction
 subtitle: Let's get started
-cover-img: /assets/img/drops.jpg
-share-img: /assets/img/drops.jpg
+cover-img: /assets/img/drops_big.jpg
+share-img: /assets/img/drops_big.jpg
 tags: [desert, forest]
 ---
 We embark on an exciting journey to explore the wonders of these unique ecosystems and discover the secrets behind growing forests in areas where it can't grow themselves.
@@ -11,7 +11,7 @@ We embark on an exciting journey to explore the wonders of these unique ecosyste
 Picture this: a mesmerizing landscape where lush greenery thrives against all odds, nestled in the shadow of towering mountain ranges. It's a place where the transformative power of nature takes center stage, showcasing the remarkable ability of life to adapt and flourish. Welcome to the enchanting realm of rain shadow forests!
 
 What is a Rain Shadow?
-Rain shadow is a geological phenomenon that occurs when mountains intercept moisture-laden winds, causing them to rise and release precipitation on the windward side. As the clouds continue their journey over the peaks, they descend, becoming drier and warmer. This creates a rain shadow, a region on the leeward side of the mountains with reduced rainfall and distinct climatic conditions.
+Rain shadow is a geological phenomenon that occurs when mountains intercept moisture-laden winds, causing them to rise and release precipitation on the windward side. As the clouds continue their journey over the peaks, they descend, becoming drier and warmer. This creates a rain shadow, a region on the leeward side of the mountains with reduced rainfall and distinct climatic conditions. In science it has a term orographic effect and it's one main reasons why we have a lot of rain in one area and desert in another.
 
 A Haven of Resilience:
 Within these climatic niches, something extraordinary happens. Nature, in its infinite wisdom, finds a way to thrive even in the face of adversity. Rainshadow forests emerge as oases of life in what would otherwise be barren landscapes. These forests are a testament to the incredible resilience of nature and its remarkable ability to adapt to varying conditions.
