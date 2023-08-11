@@ -2,10 +2,9 @@
 layout: post
 title: Introduction
 subtitle: Let's get started
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
-tags: [books, test]
+cover-img: /assets/img/drops.jpg
+share-img: /assets/img/drops.jpg
+tags: [desert, forest]
 ---
 We embark on an exciting journey to explore the wonders of these unique ecosystems and discover the secrets behind growing forests in areas where it can't grow themselves.
 
