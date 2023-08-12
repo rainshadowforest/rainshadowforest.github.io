@@ -2,8 +2,8 @@
 layout: post
 title: Introduction
 subtitle: Let's get started
-cover-img: /assets/img/drops_big.jpg
-share-img: /assets/img/drops_big.jpg
+cover-img: /assets/img/drops.jpg
+share-img: /assets/img/drops.jpg
 tags: [desert, forest]
 ---
 We embark on an exciting journey to explore the wonders of these unique ecosystems and discover the secrets behind growing forests in areas where it can't grow themselves.
