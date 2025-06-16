@@ -2,8 +2,6 @@
 layout: post
 title: "Building Resilience"
 subtitle: "Using Man-Made Structures to Minimize Desert Impact on Crops"
-cover-img: /assets/img/desert_structures.jpg
-share-img: /assets/img/desert_structures.jpg
 tags: [desert, agriculture, forest]
 comments: true
 ---
