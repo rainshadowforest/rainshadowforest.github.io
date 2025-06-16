@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Building Resilience: Using Man-Made Structures to Minimize Desert Impact on Crops"
-subtitle: "Innovative Strategies for Sustainable Agriculture in Harsh Climates"
+title: "Building Resilience"
+subtitle: "Using Man-Made Structures to Minimize Desert Impact on Crops"
 cover-img: /assets/img/desert_structures.jpg
 share-img: /assets/img/desert_structures.jpg
 tags: [desert, agriculture, forest]
