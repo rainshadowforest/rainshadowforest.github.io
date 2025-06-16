@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sagebrush
-subtitle: Artemisia Tridentata: A Keystone Species in Rain Shadow Forests
+subtitle: "Artemisia Tridentata: A Keystone Species in Rain Shadow Forests"
 tags: [desert, forest]
 comments: true
 ---
