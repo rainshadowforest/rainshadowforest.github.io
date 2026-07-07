@@ -36,25 +36,25 @@ body {
 
 /* Navbar - subtle sage accent, compact height */
 .navbar-custom {
-  background: linear-gradient(to bottom, #FAFAF7 0%, var(--desert-sand) 100%);
-  border-bottom: 2px solid var(--sage-green-light);
-  padding-top: 0.5rem;    /* Reduced from default ~1rem */
-  padding-bottom: 0.5rem; /* Reduced from default ~1rem */
-  min-height: 50px;       /* Reduced from default ~100px */
+  background: linear-gradient(to bottom, #FAFAF7 0%, var(--desert-sand) 100%) !important;
+  border-bottom: 2px solid var(--sage-green-light) !important;
+  padding-top: 0.5rem !important;    /* Reduced from default ~1rem */
+  padding-bottom: 0.5rem !important; /* Reduced from default ~1rem */
+  min-height: 50px !important;       /* Reduced from default ~100px */
 }
 
 /* Reduce navbar brand/title size */
 .navbar-custom .navbar-brand {
-  font-size: 1.2rem;      /* Reduced from ~1.5rem */
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  font-size: 1.2rem !important;      /* Reduced from ~1.5rem */
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
 }
 
 /* Reduce navbar links size */
 .navbar-custom .navbar-nav .nav-link {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  font-size: 0.95rem;     /* Slightly smaller */
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  font-size: 0.95rem !important;     /* Slightly smaller */
 }
 
 /* Navbar links hover - sage green accent */
