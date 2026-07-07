@@ -34,10 +34,27 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* Navbar - subtle sage accent */
+/* Navbar - subtle sage accent, compact height */
 .navbar-custom {
   background: linear-gradient(to bottom, #FAFAF7 0%, var(--desert-sand) 100%);
   border-bottom: 2px solid var(--sage-green-light);
+  padding-top: 0.5rem;    /* Reduced from default ~1rem */
+  padding-bottom: 0.5rem; /* Reduced from default ~1rem */
+  min-height: 50px;       /* Reduced from default ~100px */
+}
+
+/* Reduce navbar brand/title size */
+.navbar-custom .navbar-brand {
+  font-size: 1.2rem;      /* Reduced from ~1.5rem */
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+/* Reduce navbar links size */
+.navbar-custom .navbar-nav .nav-link {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.95rem;     /* Slightly smaller */
 }
 
 /* Navbar links hover - sage green accent */
