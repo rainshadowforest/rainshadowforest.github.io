@@ -1,0 +1,202 @@
+/*
+ * Rain Shadow Forest - Custom Styles
+ * Sage green accents with subtle desert-inspired gradients
+ */
+
+/* Color Palette */
+:root {
+  /* Sage greens (used sparingly as accents) */
+  --sage-green: #9CAF88;
+  --sage-green-light: #B5C7A4;
+  --sage-green-dark: #6B7F5A;
+
+  /* Desert earth tones (main palette) */
+  --desert-sand: #F5F1E8;
+  --desert-tan: #E8DCC4;
+  --desert-brown: #8B7355;
+
+  /* Neutral base colors */
+  --warm-white: #FAFAF7;
+  --warm-gray: #4A4A45;
+}
+
+/* Subtle gradient background for entire page */
+body {
+  background: linear-gradient(to bottom, var(--warm-white) 0%, var(--desert-sand) 100%);
+  background-attachment: fixed;
+}
+
+/* Main content area - keep clean white */
+.container.main-content {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Navbar - subtle sage accent */
+.navbar-custom {
+  background: linear-gradient(to bottom, #FAFAF7 0%, var(--desert-sand) 100%);
+  border-bottom: 2px solid var(--sage-green-light);
+}
+
+/* Navbar links hover - sage green accent */
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
+  color: var(--sage-green-dark) !important;
+}
+
+/* Post titles - subtle sage green on hover */
+.posts-list .post-preview a:hover h2 {
+  color: var(--sage-green-dark);
+}
+
+/* Links - sage green accent (not too bright) */
+a {
+  color: #0085A1; /* Keep original teal for body links */
+}
+
+a:hover {
+  color: var(--sage-green-dark);
+}
+
+/* Blog post headers */
+.post-heading h1 {
+  color: var(--warm-gray);
+  border-bottom: 3px solid var(--sage-green-light);
+  padding-bottom: 0.5rem;
+}
+
+.post-heading .post-subheading {
+  color: var(--sage-green-dark);
+  font-style: italic;
+}
+
+/* Tags - sage green */
+.blog-tags a {
+  background-color: var(--sage-green-light);
+  color: var(--warm-gray);
+  border-radius: 4px;
+  padding: 4px 12px;
+  margin: 4px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.blog-tags a:hover {
+  background-color: var(--sage-green);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer - subtle gradient */
+footer {
+  background: linear-gradient(to top, var(--desert-tan) 0%, var(--desert-sand) 100%);
+  border-top: 2px solid var(--sage-green-light);
+}
+
+/* Footer links hover - sage green */
+footer a:hover {
+  color: var(--sage-green-dark) !important;
+}
+
+/* Buttons - sage green accent */
+.btn-primary {
+  background-color: var(--sage-green);
+  border-color: var(--sage-green-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--sage-green-dark);
+  border-color: var(--sage-green-dark);
+}
+
+/* Search box - subtle styling */
+.search-box {
+  border: 1px solid var(--sage-green-light);
+}
+
+.search-box:focus {
+  border-color: var(--sage-green);
+  box-shadow: 0 0 0 0.2rem rgba(156, 175, 136, 0.25);
+}
+
+/* Pagination - sage green active page */
+.pagination .page-item.active .page-link {
+  background-color: var(--sage-green);
+  border-color: var(--sage-green-dark);
+}
+
+.pagination .page-link:hover {
+  background-color: var(--sage-green-light);
+  color: var(--warm-gray);
+}
+
+/* Blockquotes - subtle sage accent */
+blockquote {
+  border-left: 4px solid var(--sage-green);
+  background-color: rgba(156, 175, 136, 0.05);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+/* Code blocks - keep readable, add subtle background */
+pre {
+  background-color: var(--desert-sand);
+  border: 1px solid var(--sage-green-light);
+  border-radius: 4px;
+}
+
+/* Header image / navbar image logo styling */
+.navbar-brand img {
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+/* Optional: Add subtle texture overlay (uncomment if you want) */
+/*
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/img/subtle-texture.png');
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: -1;
+}
+*/
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container.main-content {
+    padding: 1rem;
+    border-radius: 0;
+  }
+}
+
+/* Smooth transitions for interactive elements */
+a, button, .btn {
+  transition: all 0.3s ease;
+}
+
+/* Post excerpt styling */
+.post-preview .post-entry {
+  color: var(--warm-gray);
+  line-height: 1.7;
+}
+
+/* Read more link - sage accent */
+.post-preview .post-read-more a {
+  color: var(--sage-green-dark);
+  font-weight: 600;
+}
+
+.post-preview .post-read-more a:hover {
+  color: var(--sage-green);
+}
