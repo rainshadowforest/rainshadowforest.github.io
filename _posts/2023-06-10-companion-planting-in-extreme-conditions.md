@@ -1,11 +1,10 @@
 ---
-
 layout: post
 title: "Companion Planting in Extreme Conditions"
 subtitle: "Building Plant Communities for a High Desert Ecosystem"
 tags: [desert, restoration, plants]
 comments: true
---------------
+---
 
 # Companion Planting in Extreme Conditions
 
